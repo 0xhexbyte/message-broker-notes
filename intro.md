@@ -35,3 +35,6 @@ Once the application is connected to the message broker, they can talk to all th
 
 ### If they don't speak the same language
 
+We have 2 applications which don't speak the same language. Message brokers can translate between different communication protocols.
+
+There are different protocols for messaging such as AMQP, MQTT, STOMP, Kafka Protocol. Some also speak HTTP and other protocols to enable other types of Applications.
