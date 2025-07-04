@@ -31,3 +31,7 @@ This also supports the case where App B is busy and can't handle messages as fas
 
 When setting up the message broker, we can actually provide a domain name for the broker or an IP address and place it in such a way that it is accessible by both the machines - either in a shared VPC, or via an SSH tunnel, or make the broker public so that both services can handle it.
 
+Once the application is connected to the message broker, they can talk to all the other machines talking to the message broker.
+
+### If they don't speak the same language
+
